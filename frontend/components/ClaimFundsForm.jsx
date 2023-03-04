@@ -28,7 +28,7 @@ export default function ClaimFundsForm() {
       <div className={styles.inputContainer}>
         <input
           type="text"
-          placeholder="Enter your wallet address"
+          placeholder="Enter wallet address..."
           style={{ textAlign: "left", width: "100%" }}
           value={walletAddress}
           onChange={handleInputChange}

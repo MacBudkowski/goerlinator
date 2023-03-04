@@ -1,5 +1,6 @@
 import styles from "../styles/InstructionsComponent.module.css";
 import Router, { useRouter } from "next/router";
+import ClaimFundsForm from '../components/ClaimFundsForm.jsx';
 export default function InstructionsComponent() {
 	const router = useRouter();
 	return (
@@ -9,7 +10,14 @@ export default function InstructionsComponent() {
 				Goerlinator denied your claim.
 				</h1>
 			</header>
-			<p>{router.query.address} hasn’t owned any POAPs and is not eligibleto claim GoerliETH.</p>
+			<p>{router.query.address} hasn’t owned any POAPs and is not eligible to claim GoerliETH.</p>
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<p>Try another address</p>
+			<ClaimFundsForm />
 	
 		</div>
 	);
