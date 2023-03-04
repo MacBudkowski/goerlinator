@@ -1,20 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
 
 html,
 body {
-	background-color: #191919;
-	font-family: 'VT323';
+	background-color: black;
+	font-family: 'Rubik';
 	font-weight: normal;
 }
 h1{
 	margin-bottom: 1rem;
-	font-family: 'Audiowide';
 }
 h2{
 	margin-bottom: .5rem;
-	font-family: 'Audiowide';
 	font-weight: normal;
 
 }
