@@ -9,11 +9,16 @@ export default function InstructionsComponent() {
 				<h1>
 				Congrats, human.
 				</h1>
-		
-				<container className={styles.header_container}>Goerlinator sent 1 GoerliETH to {router.query.address}.</container>
-			</header>
+				</header>
+				<br />
+				<br />
+					<p>Goerlinator sent 1 GoerliETH to {router.query.address}.</p>
+			
 			<p>Goerlinator would be happy if you shared the information about him with 
 your friends.</p>
+
+<br />
+<br />
 			<p>Hasta la vista, dev!</p>
 		</div>
 	);

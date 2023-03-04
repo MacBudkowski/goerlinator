@@ -5,14 +5,15 @@
 	height: 80vh;
 	width: 100%;
 	align-items: center;
+	margin-top: 0px;
 }
 
 .header_container{
 	margin-bottom: 3rem;
 	display: flex;
-	justify-content: space-between;
 	flex-direction: column;
 	align-items: center;
+	margin-bottom: 0px;
 }
 
 .header_container h1{
@@ -20,7 +21,6 @@
 	margin-bottom: 0.1rem;
 
 }
-
 
 .header_container h1 span{
 	background: linear-gradient(140deg, rgba(54,190,255,1) 0%, rgba(115,63,241,1) 100%);
@@ -41,8 +41,8 @@ height: 36px;
 
 background: rgba(255, 255, 255, 0.08);
 border-radius: 8px;
-	padding: .5rem 1rem .5rem .5rem;
-	margin-left: .3rem;
+padding: .5rem 1rem .5rem .5rem;
+margin-left: .3rem;
 }
 
 
@@ -63,7 +63,7 @@ align-items: center;
 flex-direction: column;
 justify-content: center;
 padding: 10px;
-background: #F2F2F2;
+background: whitesmoke;
 cursor: pointer;
 }
 
@@ -86,15 +86,17 @@ line-height: 28px;
 	background-color: white;
 	padding: 20px;
 	font-size: 24px;
-	max-width: 500px;
+	width: 600px;
 	word-wrap: break-word;
 	color: black;
 }
 
 .form {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	color: whitesmoke;
+	margin-bottom: 0px;
   }
   
   .inputContainer {
@@ -102,6 +104,7 @@ line-height: 28px;
 	align-items: center;
 	width: 400px;
 	padding: 4px 8px;
+	margin-bottom: 0px;
   }
   
   .inputContainer input {
@@ -110,12 +113,12 @@ line-height: 28px;
 	font-family: 'VT323';
 	height: 2rem;
 	width: 400px;
+	margin-bottom: 0px;
   }
   
   
   .formButton {
-	margin-left: 8px;
-	font-size: 16px;
+	font-size: 20px;
 	font-family: 'VT323';
 	color: black;
 	width: auto;
