@@ -161,15 +161,15 @@ export default function InstructionsComponent() {
         return <button className={styles.button}>Loading...</button>;
       } else {
         return (
-          <button onClick={addAddressToWhitelist} className={styles.button}>
-            <p>Claim</p>
+          <button onClick={addAddressToWhitelist} className={styles.claimButton}>
+            Claim
           </button>
         );
       }
     } else {
       return (
-        <button onClick={connectWallet} className={styles.button}>
-          <p>Connect your wallet</p>
+        <button onClick={connectWallet} className={styles.claimButton}>
+          Connect your wallet
         </button>
       );
     }
@@ -207,17 +207,14 @@ export default function InstructionsComponent() {
 				<img className={styles.goerlinator} src="/goerlinator_talking.png"></img>
   				<div className={styles.whiteBox}>
    				 Addresses that had at least one POAP until February 28, 2023 are eligible for a one-time 1 GoerliETH claim. {numberOfWhitelisted} are eligible to claim.
-  				</div>
-          </header>
-          <container>
-				  <div className={styles.form}>
-        <ClaimFundsForm /></div>
-        <div className={styles.buttons_container}>
-		<ConnectButton  />
-      </div>
-      </container>
-
-			
+           </div>
+           <ClaimFundsForm />
+           <div className={styles.container}>
+		          <ConnectButton  />
+              </div>
+      </header>
+      <br />
+      <br />
 			<div>
 				<p>Made with 💙 by M&M </p>
 			</div>
