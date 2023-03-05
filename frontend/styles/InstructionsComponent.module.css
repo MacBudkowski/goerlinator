@@ -147,4 +147,9 @@ line-height: 28px;
 	width: 200px;
 	height: 2rem;
   }
+
+  .flexBox {
+	display: flex;
+	flex-direction: column;
+  }
   

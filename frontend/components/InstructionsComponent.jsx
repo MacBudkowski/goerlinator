@@ -208,9 +208,11 @@ export default function InstructionsComponent() {
   				<div className={styles.whiteBox}>
    				 Addresses that had at least one POAP until February 28, 2023 are eligible for a one-time 1 GoerliETH claim. {numberOfWhitelisted} are eligible to claim.
            </div>
+           <div className={styles.flexBox}>
            <ClaimFundsForm />
            <div className={styles.container}>
 		          <ConnectButton  />
+              </div>
               </div>
       </header>
       <br />
